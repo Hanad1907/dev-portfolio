@@ -7,7 +7,7 @@ function Header(props) {
     return (
         <header>
             <div>
-                <h2>Hanad's React Portfolio</h2>
+                <h2>Hanad's Portfolio</h2>
             </div>
             <div>
                 <Navigation currentTab={currentTab}

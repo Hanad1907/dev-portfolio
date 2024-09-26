@@ -18,8 +18,9 @@ function Resume() {
                         <li>Bootstrap</li>
                         <li>React</li>
                         <li>version control/Git</li>
-                        <li>responsive design</li>
                         <li>Figma</li>
+                        <li>Miro</li>
+                        <li>Tableau</li>
                     </ol>
                 </div>
                 <div className="skills-category">
@@ -34,20 +35,18 @@ function Resume() {
                     <h5>Dev Tool Proficiencies</h5>
                     <ol>
                         <li>Git</li>
-                        <li>npm</li>
-                        <li>Visual Studio Code</li>
-                        <li>Intellij</li>
-                        <li>Spyder</li>
-                        <li>Anaconda</li>
-                        <li>AWS Cloud Security</li>
+                        <li>AWS</li>
                         <li>Nmap</li>
                         <li>Hydra</li>
                         <li>OWASP</li>
+                        <li>XssBeef</li>
                         <li>Burp Suite</li>
                         <li>Hashcat</li>
                         <li>Nessus</li>
                         <li>Metasploit</li>
                         <li>Reverse Engineering</li>
+                        <li>Pentesting</li>
+                        <li>Splunk</li>
                     </ol>
                 </div>
                 <div className="skills-category">
