@@ -9,6 +9,9 @@ function Header(props) {
             <div>
                 <h2>Hanad's Portfolio</h2>
             </div>
+            <div className="contact-box">
+                <p>Contact Information: hanadali805@gmail.com | Phone: +47 92239511</p>
+            </div>
             <div>
                 <Navigation currentTab={currentTab}
                     setCurrentTab={setCurrentTab}></Navigation>

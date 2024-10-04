@@ -18,7 +18,7 @@ function About() {
                     <span className="bold-text">Hello, I'm Hanad!</span> I'm a dedicated and curious Cyber Security student with a passion for exploring the security landscape and discovering new opportunities.
                 </p>
                 <p className="highlighted-text">
-                    <span className="bold-text">In my exploratory journey,</span> I constantly seek innovation and solutions that protect and empower digital realms.
+                    <span className="bold-text">In my exploratory journey,</span> I constantly seek innovation and solutions that protect and empower digital solutions.
                 </p>
             </div>
         </section>

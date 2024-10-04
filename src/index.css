@@ -247,6 +247,32 @@ textarea {
 	padding-bottom: var(--spacing-two);
 }
 
+.contact-box {
+    text-align: center;
+    background: var(--secondary); /* Matcher fargen i navigasjonsbaren */
+    border-radius: 8px; /* Lett avrundet */
+    padding: 10px 20px; /* Kompakt padding for å sikre at størrelsen holdes liten */
+    margin: 10px auto; /* Sentrer boksen */
+    width: auto; /* Dynamisk bredde slik at den tilpasses innholdet */
+    font-size: 1rem; /* Samme skriftstørrelse som navigasjonsbaren */
+    font-weight: bold;
+    color: var(--light);
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3), -2px -2px 6px rgba(255, 255, 255, 0.1); /* Subtil 3D-effekt */
+    transition: all 0.3s ease; /* Glatt overgangseffekt */
+    display: inline-block; /* Sikrer at boksen holder seg til innholdet */
+}
+
+.contact-box:hover {
+    transform: scale(1.03) translateY(-3px); /* Liten zoom og løft på hover */
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4), -4px -4px 10px rgba(255, 255, 255, 0.2); /* Forsterket 3D-effekt på hover */
+}
+
+.contact-box p {
+    margin: 0;
+    color: var(--light);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Subtil tekstskygge */
+}
+
 .img-thumbnail {
 	width: auto;
 	height: 300px;
@@ -449,24 +475,46 @@ textarea {
     grid-gap: 20px; /* Adjust the gap between grid items */
 }
 
+
 .skills-category {
-    border: 1px solid #ccc; /* Add borders around each category */
-    padding: 10px;
+    border: 1px solid #ccc;
+    padding: 15px;
+    background: linear-gradient(145deg, #f0f0f0, #e0e0e0); /* Subtle background gradient for 3D effect */
+    box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.2), -6px -6px 12px rgba(255, 255, 255, 0.8); /* Holistic 3D shadow effect */
+    border-radius: 10px; /* Rounded corners for smooth design */
+    transition: transform 0.3s ease-in-out; /* Smooth hover effect */
+}
+
+.skills-category:hover {
+    transform: scale(1.05); /* Slight enlargement on hover for focus */
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3), -10px -10px 15px rgba(255, 255, 255, 0.9); /* Enhanced shadow on hover */
 }
 
 .skills-category h5 {
-    margin-bottom: 10px; /* Add space below category headings */
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #333; /* Darker color for better contrast */
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5); /* Stronger text shadow for 3D effect */
 }
 
 .skills-category ol {
-    list-style: none; /* Remove default list styles */
+    list-style: none;
     padding: 0;
 }
 
 .skills-category li {
-    margin-bottom: 5px; /* Add space between each skill */
-    font-weight: bold; /* Bold text for each skill */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add text shadow effect */
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 1rem;
+    color: #333; /* Darker color for each skill */
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5); /* 3D effect for each skill */
+    transition: color 0.3s ease-in-out; /* Smooth color change on hover */
+}
+
+.skills-category li:hover {
+    color: #007bff; /* Change text color on hover */
 }
 
 
